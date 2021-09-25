@@ -1,60 +1,91 @@
 class Football:
-    def name(self):
-        print('Тибо')
-    def pos(self):
-        print('1')
+main()
+class Critter:
+    """Football_player"""
+    total = 0
+
+    def status():
+        print("number of foodball players", Critter.total)
+
+    def __init__(self, name,):
+        self.__name = name
+        Critter.total += 1
+
+    def __str__(self):
+        ans = 'object of class Critter\n'
+        ans += 'name: ' + self.name + '\n'
+        return ans
 
     def name(self):
-        print('Давид')
-    def pos(self):
-        print('4')
+        print('Тибо', 'Давид', 'Начо', 'Даниэль', 'Мигель',
+              'Эдер', 'Марко', 'Родриго', 'Лука', 'Антонио', 'Карим')
+        return self.__name
 
-    def name(self):
-        print('Начо')
-    def pos(self):
-        print('6')
 
-    def name(self):
-        print('Даниэль')
     def pos(self):
-        print('2')
+        print('1', '4', '6', '2', '35', '3', '11', '21', '10', '27', '9')
 
-    def name(self):
-        print('Мигель')
-    def pos(self):
-        print('35')
 
-    def name(self):
-        print('Эдер')
-    def pos(self):
-        print('3')
+def main1():
+    crit_name = input("How do you want to name your player: ")
+    crit = Critter(crit_name)
 
-    def name(self):
-        print('Марко')
-    def pos(self):
-        print('11')
-
-    def name(self):
-        print('Родриго')
-    def pos(self):
-        print('21')
-
-    def name(self):
-        print('Лука')
-    def pos(self):
-        print('10')
-
-    def name(self):
-        print('Антонио')
-    def pos(self):
-        print('27')
-
-    def name(self):
-        print('Карим')
-    def pos(self):
-        print('9')
 def main():
-    foot=Football()
+    foot = Football()
     foot.name()
     foot.pos()
+
+def main2():
+    crit_name = input("How do you want to name your player: ")
+    crit = Critter(crit_name)
+
 main()
+
+def main3():
+    crit_name = input("How do you want to name your player: ")
+    crit = Critter(crit_name)
+
+def main4():
+    crit_name = input("How do you want to name your player: ")
+    crit = Critter(crit_name)
+
+def main5():
+    crit_name = input("How do you want to name your player: ")
+    crit = Critter(crit_name)
+
+def main6():
+    crit_name = input("How do you want to name your player: ")
+    crit = Critter(crit_name)
+
+def main7():
+    crit_name = input("How do you want to name your player: ")
+    crit = Critter(crit_name)
+
+def main8():
+    crit_name = input("How do you want to name your player: ")
+    crit = Critter(crit_name)
+
+def main9():
+    crit_name = input("How do you want to name your player: ")
+    crit = Critter(crit_name)
+
+def main10():
+    crit_name = input("How do you want to name your player: ")
+    crit = Critter(crit_name)
+
+def main11():
+    crit_name = input("How do you want to name your player: ")
+    crit = Critter(crit_name)
+
+
+main1()
+main2()
+main3()
+main4()
+main5()
+main6()
+main7()
+main8()
+main9()
+main10()
+main11()
