@@ -1,4 +1,5 @@
 class Football:
+    
     def __init__ (self, name, position):
         self.name = name
         self.position = position
@@ -7,7 +8,7 @@ class Football:
         print("How do you want to name football player", self.name, "What is his position", self.position)
 
 def main():
-    
+
     crit1 = Football ("Тибо", "1")
     crit1.talk()
 
